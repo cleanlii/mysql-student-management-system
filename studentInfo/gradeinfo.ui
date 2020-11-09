@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GradeInfo</class>
+ <widget class="QMainWindow" name="GradeInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>449</width>
+    <height>336</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生成绩</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/8.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/4.jpg);</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>学生成绩信息管理</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>160</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="addfinfo">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/background/4.jpg);</string>
+       </property>
+       <property name="text">
+        <string>添加学生成绩</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="selectinfo">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/background/4.jpg);</string>
+       </property>
+       <property name="text">
+        <string>查询学生成绩</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="changeinfo">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/background/4.jpg);</string>
+       </property>
+       <property name="text">
+        <string>修改学生成绩</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteinfo">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/background/4.jpg);</string>
+       </property>
+       <property name="text">
+        <string>删除学生成绩</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
